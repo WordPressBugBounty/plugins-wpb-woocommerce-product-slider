@@ -1,0 +1,1 @@
+# plugins-wpb-woocommerce-product-slider
