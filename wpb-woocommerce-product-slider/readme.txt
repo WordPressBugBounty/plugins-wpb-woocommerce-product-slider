@@ -2,7 +2,7 @@
 Contributors: wpbean, imranwpb
 Tags: WooCommerce Product Slider, woocommerce product carousel, WooCommerce carousel, , woocommerce slider, product slider
 Requires at least: 5.0
-Tested up to: 6.6.1
+Tested up to: 6.6.2
 Stable tag: 2.0.9.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -38,11 +38,11 @@ We have thousands of active install of this plugin. If you are thinking to build
 * All modern browser support.
 * Build with HTML5 & CSS3.
 * RTL language support.
-* Translation ready. 
 * Works with all WordPress Themes.
 * Easy and user-friendly setup.
 * Online Documentation.
 * Very Lightweight & many more.
+* WPML, Polylang, GTranslate and all others multi-language plugin support.
 
 
 ### Pro version features:
