@@ -4,7 +4,7 @@
  * Plugin URI: https://wpbean.com/downloads/wpb-woocommerce-product-slider-pro/
  * Description: WPB product slider for WooCommerce comes with different styles for product slider. It can show slider of latest, featured, category, tags and selected products.
  * Author: wpbean
- * Version: 2.0.9.9
+ * Version: 2.2.1
  * Author URI: https://wpbean.com
  * Text Domain: wpb-wps
  * Domain Path: /languages
@@ -130,7 +130,7 @@ function wpb_wps_free_plugin_init(){
 	load_plugin_textdomain( WPB_WPS_TEXTDOMAIN, false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 	register_deactivation_hook( plugin_basename( __FILE__ ), 'wpb_wps_lite_plugin_deactivation' );
 	add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'wpb_wps_add_action_links' );
-	add_action( 'admin_notices', 'wpb_wps_pro_discount_admin_notice' );
+	//add_action( 'admin_notices', 'wpb_wps_pro_discount_admin_notice' );
 	add_action( 'admin_init', 'wpb_wps_pro_discount_admin_notice_dismissed' );
 
 	require_once dirname( __FILE__ ) . '/inc/wpb-scripts.php';
@@ -139,5 +139,10 @@ function wpb_wps_free_plugin_init(){
 	require_once dirname( __FILE__ ) . '/inc/wpb-wps-functions.php';
 	require_once dirname( __FILE__ ) . '/admin/settings/class.settings-api.php';
 	require_once dirname( __FILE__ ) . '/admin/settings/wpb-wps-settings.php';
+
+	if( is_admin() ){
+		require_once dirname( __FILE__ ) . '/inc/DiscountPage/DiscountPage.php';
+		new WPBean_WC_Products_Slider_DiscountPage();
+	}
 }
 add_action( 'plugins_loaded', 'wpb_wps_free_plugin_init' );

@@ -24,6 +24,7 @@ if( !function_exists( 'wpb_wps_shortcode_function' ) ):
 			'orderby'				=> wpb_wps_get_option( 'wpb_wps_orderby', 'wpb_wps_general', 'date' ),
 			'order'					=> wpb_wps_get_option( 'wpb_wps_order', 'wpb_wps_general', 'DESC' ),
 			'autoplay'				=> ( wpb_wps_get_option( 'wpb_slider_autoplay', 'wpb_wps_slider_settings', 'on' ) == 'on' ? 'true' : 'false' ),
+			'autoplay_hover_pause'	=> 'true',
 			'loop'					=> ( wpb_wps_get_option( 'wpb_slider_loop', 'wpb_wps_slider_settings', 'on' ) == 'on' ? 'true' : 'false' ),
 			'nav'					=> ( wpb_wps_get_option( 'wpb_slider_navigation', 'wpb_wps_slider_settings', 'on' ) == 'on' ? 'true' : 'false' ),
 			'slideby'				=> ( wpb_wps_get_option( 'wpb_slider_slideby', 'wpb_wps_slider_settings', 1 ) ),
@@ -43,7 +44,8 @@ if( !function_exists( 'wpb_wps_shortcode_function' ) ):
 
 		$slider_data_attr = array(
 	    	'autoplay'			=> $autoplay,
-	    	'loop'				=> $loop,
+	    	'hoverpause'		=> ( empty($autoplay_hover_pause) || $autoplay_hover_pause == 'true' || $autoplay_hover_pause == 'on' ? 'true' : 'false' ),
+	    	'sliderloop'		=> $loop,
 	    	'navigation'		=> $nav,
 	    	'slideby'			=> $slideby,
 	    	'pagination'		=> $pagination,
@@ -100,7 +102,7 @@ if( !function_exists( 'wpb_wps_shortcode_function' ) ):
 		}
 
 		$args = apply_filters( 'wpb_wcs_shortcode_quary_args', $args );
-						
+				
 		$loop = new WP_Query( $args );
 
 		if( wpb_wps_get_option( 'wpb_wps_force_scripts_loading', 'wpb_wps_advanced' ) != 'on' ){

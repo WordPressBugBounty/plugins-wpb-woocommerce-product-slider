@@ -6,21 +6,22 @@
 
 		    var t = $(this),
 		        auto 			= t.data("autoplay") ? !0 : !1,
+		        hoverpause 		= t.data("hoverpause") ? !0 : !1,
 		        rtl 			= t.data("direction") ? !0 : !1,
-		        items 			= t.data("items") ? parseInt(t.data("items")) : '',
-		        desktopsmall 	= t.data("desktopsmall") ? parseInt(t.data("desktopsmall")) : '',
-		        tablet 			= t.data("tablet") ? parseInt(t.data("tablet")) : '',
-		        mobile 			= t.data("mobile") ? parseInt(t.data("mobile")) : '',
+		        items 			= t.data("items") ? parseFloat(t.data("items")) : '',
+		        desktopsmall 	= t.data("desktopsmall") ? parseFloat(t.data("desktopsmall")) : '',
+		        tablet 			= t.data("tablet") ? parseFloat(t.data("tablet")) : '',
+		        mobile 			= t.data("mobile") ? parseFloat(t.data("mobile")) : '',
 		        nav 			= t.data("navigation") ? !0 : !1,
 		        slideBy 		= t.data("slideby"),
 		        pag 			= t.data("pagination") ? !0 : !1,
-		        loop 			= t.data("loop") ? !0 : !1,
+		        loop 			= t.data("sliderloop") ? !0 : !1,
 		        navTextLeft 	= t.data("direction") ? 'right' : 'left',
 		        navTextRight 	= t.data("direction") ? 'left' : 'right';
 		        
 		    $(this).owlCarousel({
 		        autoplay: auto,
-		        autoplayHoverPause: true,
+		        autoplayHoverPause: hoverpause,
 		        rtl: rtl,
 		        items : items,
 		        responsiveClass:true,

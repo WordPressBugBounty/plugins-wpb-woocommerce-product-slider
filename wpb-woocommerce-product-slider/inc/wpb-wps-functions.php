@@ -164,7 +164,7 @@ if( !function_exists('wpb_wps_register_menu_page') ){
 	function wpb_wps_register_menu_page() {
 	    add_menu_page(
 	        esc_html__( 'WPB WooCommerce Products Slider', WPB_WPS_TEXTDOMAIN ),
-	        esc_html__( 'Woo Slider', WPB_WPS_TEXTDOMAIN ),
+	        esc_html__( 'Products Slider', WPB_WPS_TEXTDOMAIN ),
 	        apply_filters( 'wpb_wps_settings_user_capability', 'manage_options' ),
 	        WPB_WPS_TEXTDOMAIN.'-about',
 	        'wpb_wps_get_menu_page',
