@@ -4,7 +4,7 @@
  * Plugin URI: https://wpbean.com/downloads/wpb-woocommerce-product-slider-pro/
  * Description: WPB product slider for WooCommerce comes with different styles for product slider. It can show slider of latest, featured, category, tags and selected products.
  * Author: wpbean
- * Version: 2.2.1
+ * Version: 2.2.2
  * Author URI: https://wpbean.com
  * Text Domain: wpb-wps
  * Domain Path: /languages
