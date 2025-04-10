@@ -95,15 +95,6 @@ $version = $wpb_wps_plugin_data['Version'];
 
 <div class="clear"></div>
 
-<div class="wpb_wpbean_socials">
-	<h4><?php esc_html_e( 'For getting updates of our plugins, features update, WordPress new trend, New web technology etc. Follows Us.', WPB_WPS_TEXTDOMAIN );?></h4>
-	<a href="https://twitter.com/wpbean" title="Follow us on Twitter" class="wpb_twitter" target="_blank"><?php esc_html_e( 'Follow Us On Twitter', WPB_WPS_TEXTDOMAIN );?></a>
-	<a href="https://plus.google.com/u/0/+WpBean/posts" title="Follow us on Google+" class="wpb_googleplus" target="_blank"><?php esc_html_e( 'Follow Us On Google Plus', WPB_WPS_TEXTDOMAIN );?></a>
-	<a href="https://www.facebook.com/wpbean" title="Follow us on Facebook" class="wpb_facebook" target="_blank"><?php esc_html_e( 'Like Us On FaceBook', WPB_WPS_TEXTDOMAIN );?></a>
-	<a href="https://www.youtube.com/user/wpbean/videos" title="Follow us on Youtube" class="wpb_youtube" target="_blank"><?php esc_html_e( 'Subscribe Us on YouTube', WPB_WPS_TEXTDOMAIN );?></a>
-	<a href="https://wpbean.com/support/" title="Get Support" class="wpb_support" target="_blank"><?php esc_html_e( 'Get Support', WPB_WPS_TEXTDOMAIN );?></a>
-</div>
-
 <script>
     jQuery(document).ready(function($) {
 

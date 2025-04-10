@@ -59,6 +59,8 @@ if( !function_exists('wpb_wps_adding_dynamic_styles') ):
 
 		$custom_css = 	".wpb-woo-products-slider figcaption a.button,
 		.wpb-woo-products-slider.owl-theme .owl-dots .owl-dot.active span,
+		.wpb-woo-products-slider figure .stock,
+		.wpb-woo-products-slider.woocommerce .wpb-wps-slider-item span.onsale,
 		.wpb-woo-products-slider.owl-theme .owl-dots .owl-dot:hover span {
 			background:  $wpb_wps_primary_color
 		}";

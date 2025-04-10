@@ -144,6 +144,7 @@ if( !function_exists( 'wpb_wps_shortcode_function' ) ):
 								<div <?php post_class( 'wpb-wps-slider-item' ) ?>>
 									<figure>
 										<?php echo woocommerce_show_product_loop_sale_flash(); ?>
+										<?php echo wc_get_stock_html($product); ?>
 
 										<?php do_action('berocket_apl_set_label', true); ?>
 										
