@@ -2,12 +2,12 @@
 Contributors: wpbean, imranwpb
 Tags: WooCommerce Product Slider, woocommerce product carousel, WooCommerce carousel, , woocommerce slider, product slider
 Requires at least: 5.0
-Tested up to: 6.8
-Stable tag: 2.2.3
+Tested up to: 6.8.1
+Stable tag: 2.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WPB Product slider for WooCommerce is most popular & best free WooCommerce product slider plugin.
+WPB Product slider for WooCommerce can enhance visual appeal and improve product visibility. It can boost sales by adding a mobile-friendly shopping.
 
 == Description ==
 
@@ -18,6 +18,10 @@ The WPB Product slider for WooCommerce plugin is essential if you're considering
 
 >[Upgrade to the Pro Version Now!&raquo;](https://wpbean.com/downloads/wpb-woocommerce-product-slider-pro/)  |  [DEMO](http://demo1.wpbean.com/wpb-woocommerce-product-slider-pro/)  |  [Support](https://wpbean.com/support/) |  [Documentation](http://docs.wpbean.com/docs/wpb-woocommerce-products-slider-free-version/installing/)
 
+### 👋 Need expert WordPress & WooCommerce development help?
+I’m currently available for hire — WordPress and WooCommerce development, custom features, bug fixing, speed optimization, performance tuning, SEO improvements, and more.
+With over 10 years of experience building high-quality WordPress solutions, I can help you take your website to the next level. 
+[__Contact me here →__](https://wpbean.com/web-development-services/?utm_source=WordPress&utm_medium=desc-link&utm_campaign=available-for-hire&utm_content=WPB+WooCommerce+Products+Slider)
 
 ### Plugin Features:
 
@@ -133,6 +137,9 @@ After adding the woo_image with its value false, add [this](https://gist.github.
 6. WPB Product Slider for WooCommerce shortcode in page
 
 == Changelog ==
+
+= version 2.2.4 =
+* Tested with WordPress 6.8.1
 
 = version 2.2.3 =
 * Added stock out status in the products.
