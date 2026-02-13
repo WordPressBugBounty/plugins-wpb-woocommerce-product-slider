@@ -2,8 +2,8 @@
 Contributors: wpbean, imranwpb
 Tags: WooCommerce Product Slider, woocommerce product carousel, WooCommerce carousel, , woocommerce slider, product slider
 Requires at least: 5.0
-Tested up to: 6.9
-Stable tag: 2.2.4
+Tested up to: 6.9.1
+Stable tag: 2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -134,6 +134,9 @@ After adding the woo_image with its value false, add [this](https://gist.github.
 6. WPB Product Slider for WooCommerce shortcode in page
 
 == Changelog ==
+
+= version 2.3 =
+* Removed hire notice.
 
 = version 2.2.4 =
 * Tested with WordPress 6.8.1
