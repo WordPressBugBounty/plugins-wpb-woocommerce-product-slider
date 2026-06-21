@@ -1,9 +1,9 @@
-=== WPB Product Slider for WooCommerce ===
+=== WPB Product Slider for WooCommerce – Responsive Product Carousel & Showcase ===
 Contributors: wpbean, imranwpb
 Tags: WooCommerce Product Slider, woocommerce product carousel, WooCommerce carousel, , woocommerce slider, product slider
 Requires at least: 5.0
-Tested up to: 6.9.1
-Stable tag: 2.3
+Tested up to: 7.0
+Stable tag: 2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,12 +13,11 @@ Display WooCommerce products in a responsive slider or carousel with customizabl
 
 <strong>WPB WooCommerce Product Slider</strong> is a powerful and flexible WordPress plugin that lets you showcase your WooCommerce products in attractive, responsive sliders and carousels. Designed to enhance product discovery and improve user engagement, this product slider plugin enables you to display featured products, best sellers, recent items, or custom product selections in elegant sliding layouts that work beautifully on all devices.
 
+>[Upgrade to the Pro Version Now!&raquo;](https://wpbean.com/downloads/wpb-woocommerce-product-slider-pro/)  |  [DEMO](http://demo1.wpbean.com/wpb-woocommerce-product-slider-pro/)  |  [Support](https://wpbean.com/support/) |  [Documentation](http://docs.wpbean.com/docs/wpb-woocommerce-products-slider-free-version/installing/)
+
 With a shortcode-based approach, <strong>WPB WooCommerce Product Slider</strong> makes it easy to add product sliders anywhere on your site — including homepages, landing pages, product pages, and widget areas — without writing any code. The intuitive customization options let you configure layout styles, product counts, navigation controls, autoplay settings, and responsive breakpoints to match your store’s design and user experience goals.
 
 Built with performance and compatibility in mind, this WooCommerce product carousel plugin works seamlessly with all modern WordPress themes and ensures fast loading times without sacrificing style or functionality. Whether you’re aiming to highlight featured items, increase upsells, or make browsing easier for your customers, <strong>WPB WooCommerce Product Slider</strong> gives you a professional, conversion-focused solution for presenting products in a visual, engaging way.
-
-
->[Upgrade to the Pro Version Now!&raquo;](https://wpbean.com/downloads/wpb-woocommerce-product-slider-pro/)  |  [DEMO](http://demo1.wpbean.com/wpb-woocommerce-product-slider-pro/)  |  [Support](https://wpbean.com/support/) |  [Documentation](http://docs.wpbean.com/docs/wpb-woocommerce-products-slider-free-version/installing/)
 
 ### Plugin Features:
 
@@ -134,6 +133,9 @@ After adding the woo_image with its value false, add [this](https://gist.github.
 6. WPB Product Slider for WooCommerce shortcode in page
 
 == Changelog ==
+
+= version 2.4 =
+* Settings layout style improved.
 
 = version 2.3 =
 * Removed hire notice.
