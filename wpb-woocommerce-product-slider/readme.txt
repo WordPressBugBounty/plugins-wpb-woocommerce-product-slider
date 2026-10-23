@@ -2,7 +2,7 @@
 Contributors: wpbean, imranwpb
 Tags: WooCommerce Product Slider, woocommerce product carousel, WooCommerce carousel, , woocommerce slider, product slider
 Requires at least: 5.0
-Tested up to: 7.0
+Tested up to: 7.0.4
 Stable tag: 2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
